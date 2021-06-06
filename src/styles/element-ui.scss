@@ -1,0 +1,25 @@
+// elementui表格表头加背景色
+.el-table {
+  th {
+    background: #eee;
+  }
+}
+
+/* 面包屑分隔符-向右箭头的颜色 */
+.el-breadcrumb__separator.el-icon-arrow-right {
+  color: #000;
+}
+
+// 左侧菜单样式
+.el-menu.el-menu-vertical-demo {
+  background: #fff !important;
+}
+.el-menu-item {
+  margin-bottom: 3px !important;
+  text-align: center;
+  padding-left: 0 !important;
+  &.is-active {
+    background: #409eff !important;
+    font-weight: 600;
+  }
+}
